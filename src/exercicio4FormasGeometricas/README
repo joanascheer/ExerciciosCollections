@@ -1,0 +1,26 @@
+Crie a seguinte hierarquia de classes:
+● Uma interface para representar qualquer forma geométrica,
+definindo métodos para cálculo do perímetro e cálculo da área
+da forma; ok
+● Uma classe abstrata para representar quadriláteros. Seu
+construtor deve receber os tamanhos dos 4 lados e o método
+de cálculo do perímetro já pode ser implementado; ok
+● Classes para representar retângulos e quadrados. A primeira
+deve receber o tamanho da base e da altura no construtor,
+enquanto a segunda deve receber apenas o tamanho do lado; ok
+● Uma classe para representar um círculo. Seu construtor deve
+receber o tamanho do raio. ok
+● No programa principal, pergunte ao usuário quantas formas
+ele deseja criar. ok
+● Em seguida, para cada forma, pergunte se deseja criar um
+quadrado, um retângulos ou um círculo, solicitando os dados
+necessários para criar a forma. Todas as formas criadas devem
+ser armazenadas em um vetor.
+
+Exercícios - Aula 23
+
+● Finalmente, imprima:
+○ (a) os dados (lados ou raio);
+○ (b) os perímetros;
+○ e (c) as áreas de todas as formas.
+○ Para (b) e (c), tire vantagem do polimorfismo
